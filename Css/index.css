@@ -1,0 +1,249 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgb(152, 177, 203),#adb6c9, #91acc9,#89a7c3, rgb(255, 255, 255));
+
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.top-image {
+  background-image: url("rafale-iaf.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 720px;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  margin: 10px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  width: 120px;
+  cursor: pointer;
+  padding-left: 52px;
+}
+
+.menu {
+  width: 40px;
+  cursor: pointer;
+  margin-left: 50px;
+  padding-right: 40px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(12, 12, 12);
+  font-size: 20px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-top: 60px;
+}
+
+.col {
+  flex: 1;
+  margin-left: 50px;
+  margin-bottom: 200px;
+  text-align: left;
+}
+
+h1 {
+  color: black;
+  font-size: 80px;
+}
+
+p {
+  color: black;
+  font-size: 20px;
+}
+
+button {
+  margin-top: 20px;
+  width: 180px;
+  color: black;
+  font-size: 18px;
+  padding: 12px;
+  background: rgb(225, 198, 90);
+  border-radius: 25px;
+  outline: 2px solid black;
+  border: none;
+  cursor: pointer;
+}
+
+.top-content {
+  flex: 1;
+  /* background-image: linear-gradient(rgb(152, 177, 203), rgb(255, 255, 255)); */
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.top-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.top-content p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+
+
+.second-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+
+
+.second-slide {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-bottom: 2rem;
+  box-sizing: border-box;
+  position: relative;
+  transition: transform 0.3s ease-in-out; 
+}
+
+.second-slide:hover {
+  transform: scale(1.2); 
+}
+
+.second-slide:hover .second-slide-img {
+  animation: rotate360 1s linear forwards;
+}
+
+@keyframes rotate360 {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+
+.second-slide-img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  transition: transform 2s ease-in-out; 
+}
+
+.second-slide-img:hover {
+  box-shadow: 10px 10px 5px 2px rgb(183, 185, 181);
+}
+
+.slide-content {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-top: 1rem;
+  text-align: justify;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  opacity: 0;
+  transition: opacity 2s ease;
+  a:link { 
+    text-decoration: none; 
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  a:hover { 
+    text-decoration: none; 
+  } 
+  a:active { 
+    text-decoration: none; 
+  }
+}
+
+.second-slide:hover .slide-content {
+  opacity: 0.5;
+  stop-opacity: initial;
+}
+
+
+
+
+
+
+
+
+.image-container {
+  float: left; /* Float the image to the left */
+  margin-right: 20px; /* Adjust the margin to create space between the image and text */
+}
+
+.text-container {
+  /* Adjust the margin to create space between the image and text */
+  margin-left: 20px; /* Adjust according to your design */
+}
+
+
+
+
+footer {
+  height: 65px;
+  background-color: rgb(75, 83, 32);
+  color: white;
+  /*flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;*/
+  margin-left: 30px;
+  width: 96%;
+ 
+}
+
+footer h2 {
+  padding-left: 40%;   
+  padding-top: 5px;
+}
+
+footer p {
+  color:white;
+  padding-left: 595px;
+  margin: -15px;
+}

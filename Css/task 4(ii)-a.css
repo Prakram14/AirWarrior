@@ -1,0 +1,108 @@
+
+body{
+    background-image: url('./chip.jpg');
+    background-size: 100% 120%;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    height: 20vh; 
+}
+/*.background{
+    background-image: url('./global_chip_shortage.jpg');
+    background-size: 100% 120%;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    height: 200vh; 
+    opacity: 1;
+}*/
+
+/*.container{
+    background-image: url("student1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    length: 75%;
+}*/
+.navbar{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+*{
+    background-image: linear-gradient(rgb(212, 150, 160) rgb(233, 233, 93) );
+}
+.logo{
+    width: 90px;
+    cursor: pointer;
+    padding-left: 69px;
+}
+.menu{
+    width: 40px;
+    cursor: pointer;
+    margin-left: 50px;
+    padding-right: 40px;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:rgb(12, 12, 12);
+    font-size: 20px;
+}
+.row{
+    display: flex;
+    line-height: 20px;
+}
+.col{
+     flex-basis: 50%;
+}
+h1{
+    color:black;
+    font-size: 80px;
+    padding-left: 70px;
+}
+p{
+    color: black;
+    font-size: 20px;
+    padding-left: 70px;
+}
+button{
+    margin: 70px;
+    width: 180px;
+    color:black;
+    font-size: 18px;
+    padding: 12px;
+    background: rgb(225, 198, 90);
+    border-radius: 25px;
+    outline: none;
+    margin-top: 10px;
+}
+footer{
+    height: 84px;
+    margin-top: 1px;
+    margin-bottom: 15px;
+    width: 96%;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    
+}
+footer h2{
+    padding-left: 40%;   
+    padding-top: 5px;
+    margin-top: 80px;
+}
+footer p{
+    position: absolute;
+    left: 35%;
+    bottom: 20px;
+    color: white;
+    margin-bottom: -15px;
+}
