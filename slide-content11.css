@@ -1,0 +1,64 @@
+body{
+    background-image: linear-gradient(rgb(24, 85, 155), white);
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+    padding-left: 78px;
+}
+.menu{
+    width: 40px;
+    cursor: pointer;
+    margin-left: 50px;
+    padding-right: 40px;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:rgb(12, 12, 12);
+    font-size: 20px;
+}
+
+
+.internship{
+    text-align: justify;   
+    border-radius: 11px;
+    margin: 250px;
+    margin-top: 3%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: wheat;
+}
+
+footer{
+    height: 42px;
+    margin-top: 143.5px;
+    width: 96%;
+    background-color: rgb(122, 107, 4);
+    color: white;
+    margin-left: 30px;
+}
+
+footer p{
+    position: absolute;
+    left: 39%;
+    color: white;
+    margin-bottom: 65px;
+}
